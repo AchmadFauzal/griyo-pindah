@@ -19,7 +19,7 @@ export default function Footer({ whatsappNumber, defaultWaMessage }: FooterProps
               <span className="font-black text-xl text-white">GRIYO <span className="text-orange-500">PINDAH</span></span>
             </div>
             <p className="text-xs text-slate-400 leading-relaxed">
-              Jasa pindahan rumah & apartemen profesional spesialis area BSD & sekitarnya. Solusi tepat untuk pindah aman, barang terjamin, sampai tujuan tanpa repot.
+              Jasa pindahan rumah & apartemen profesional spesialis area Tangerang Selatan & sekitarnya. Solusi tepat untuk pindah aman, barang terjamin, sampai tujuan tanpa repot.
             </p>
           </div>
 
