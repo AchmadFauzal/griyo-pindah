@@ -7,7 +7,7 @@ export default function Features() {
       title: "Relocation Consultant Profesional",
       desc: "Anda dapat berkonsultasi tentang teknis pindahan tanpa ragu, langsung dengan ahlinya yang mengerti cara penanganan setiap jenis furniture.",
       // Unsplash: Konsultan / Diskusi Profesional
-      image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=800&auto=format&fit=crop",
+      image: "g2",
     },
     {
       title: "Transparan Dalam Pekerjaan & Biaya",
@@ -25,19 +25,19 @@ export default function Features() {
       title: "Lebih Aman & Tenang Bergaransi",
       desc: "Risiko akan selalu ada sekecil apapun itu. Namun Griyo Pindah berkomitmen penuh akan keamanan barang Anda dengan perlindungan garansi.",
       // Unsplash: Proteksi / Jaminan Keamanan
-      image: "https://images.unsplash.com/photo-1450133064473-71024230f91b?q=80&w=800&auto=format&fit=crop",
+      image: "g13",
     },
     {
       title: "Dikerjakan Oleh Tenaga Ahli",
       desc: "Man power kami mendedikasikan tenaga dan pikirannya khusus untuk menjadi spesialis di bidang pindahan rumah & barang berharga.",
       // Unsplash: Pekerja Spesialis
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=800&auto=format&fit=crop",
+      image: "g1",
     },
     {
       title: "Material Packing Berkualitas",
       desc: "Tenaga ahli kami didukung peralatan kerja lengkap serta material packing tebal (bubble wrap, karton box, stretch film) standar industri.",
       // Unsplash: Kardus & Material Packing
-      image: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=800&auto=format&fit=crop",
+      image: "g14",
     },
   ];
 

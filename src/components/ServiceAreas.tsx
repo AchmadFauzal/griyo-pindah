@@ -38,7 +38,7 @@ export default function ServiceAreas() {
             Jangkauan Layanan Lokal
           </h2>
           <p className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">
-            Fokus Utama Area BSD City & JABODETABEK
+            Fokus Utama Area Tangerang Selatan & JABODETABEK
           </p>
           <p className="text-slate-600 text-sm mt-3">
             Armada dan tim operasional kami bersiap di titik strategis untuk penanganan cepat dan tepat waktu.

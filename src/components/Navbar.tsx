@@ -48,9 +48,9 @@ export default function Navbar({ whatsappNumber, defaultWaMessage }: NavbarProps
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
           <div className="flex items-center gap-2">
             <span className="bg-orange-500 text-white font-bold px-2 py-0.5 rounded text-[10px] tracking-wide uppercase">
-              Spesialis BSD
+              Spesialis Tangsel
             </span>
-            <span>📍 Layanan Pindahan Profesional Area BSD & JABODETABEK</span>
+            <span>📍 Layanan Pindahan Profesional Area Tangsel & JABODETABEK</span>
           </div>
           <div className="flex items-center gap-4 text-slate-300">
             <a href={`tel:${cleanPhoneNumber}`} className="hover:text-orange-400 transition flex items-center gap-1">

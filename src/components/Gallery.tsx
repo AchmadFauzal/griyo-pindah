@@ -11,53 +11,53 @@ export default function Gallery() {
   const photos = [
     { 
       // Contoh Gambar Lokal (Cukup ganti dengan path file di folder public/ Anda)
-      src: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=800&auto=format&fit=crop", 
+      src: "g16", 
       title: "Packing Furniture Mewah", 
       category: "Packing Standard" 
     },
     { 
       // Contoh Gambar Unsplash/Eksternal
-      src: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=800&auto=format&fit=crop", 
+      src: "g5", 
       title: "Pengangkutan Ke Armada Truk", 
       category: "Transportasi" 
     },
     { 
-      src: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=800&auto=format&fit=crop", 
+      src: "g2", 
       title: "Bongkar Pasang AC & Unit", 
       category: "Layanan Khusus" 
     },
     { 
-      src: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop", 
+      src: "g4", 
       title: "Reposisi Barang di Rumah Baru", 
       category: "Unpacking & Unloading" 
     },
     { 
-      src: "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?q=80&w=800&auto=format&fit=crop", 
-      title: "Penanganan Grand Piano", 
+      src: "g1", 
+      title: "Penanganan Sofa Besar & Antik", 
       category: "Special Item" 
     },
     { 
-      src: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=800&auto=format&fit=crop", 
+      src: "g7", 
       title: "Pindahan Rumah Area BSD", 
       category: "Pindahan Rumah" 
     },
     { 
-      src: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=800&auto=format&fit=crop", 
+      src: "g10", 
       title: "Packing Barang Kaca & Antik", 
       category: "Fragile Packing" 
     },
     { 
-      src: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800&auto=format&fit=crop", 
+      src: "g9", 
       title: "Pengangkatan Brankas Berat", 
       category: "Special Item" 
     },
     { 
-      src: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=800&auto=format&fit=crop", 
+      src: "g3", 
       title: "Pindahan Apartemen Lantai Tinggi", 
       category: "Pindahan Apartemen" 
     },
     { 
-      src: "https://images.unsplash.com/photo-1595428774223-ef52624120d2?q=80&w=800&auto=format&fit=crop", 
+      src: "g15", 
       title: "Unpacking & Penataan Lemari", 
       category: "Relocation Support" 
     },

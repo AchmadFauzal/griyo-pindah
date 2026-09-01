@@ -25,7 +25,7 @@ export default function Hero({ whatsappNumber, defaultWaMessage }: HeroProps) {
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
             <div className="inline-flex items-center gap-2 bg-orange-100 text-orange-700 font-semibold text-xs md:text-sm px-4 py-1.5 rounded-full border border-orange-200">
               <span className="w-2 h-2 rounded-full bg-orange-500 animate-pulse"></span>
-              <span>Area BSD & Sekitarnya • JABODETABEK & Antar Kota</span>
+              <span>Area Tangerang Selatan & Sekitarnya • JABODETABEK & Antar Kota</span>
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight leading-[1.15]">
@@ -74,7 +74,7 @@ export default function Hero({ whatsappNumber, defaultWaMessage }: HeroProps) {
           <div className="lg:col-span-5 relative">
             <div className="relative bg-white p-6 sm:p-8 rounded-3xl shadow-2xl border border-orange-100">
               <div className="absolute -top-4 -right-4 bg-orange-500 text-white font-black text-xs px-4 py-2 rounded-full uppercase tracking-wider shadow-lg">
-                Terpercaya #1 BSD
+                Terpercaya #1 Tangsel
               </div>
 
               <div className="text-center py-4">

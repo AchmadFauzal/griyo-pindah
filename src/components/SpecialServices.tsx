@@ -7,13 +7,13 @@ export default function SpecialServices() {
       title: "Bongkar Pasang Furniture",
       desc: "Bongkar pasang lemari pakaian besar, kitchen set, dipan tempat tidur, dan meja knock-down.",
       // Unsplash Unsplash: Furniture / Carpenter
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=800&auto=format&fit=crop",
+      image: "g1",
     },
     {
       title: "Bongkar Pasang AC",
       desc: "Pelepasan unit AC lama dan pemasangan kembali di rumah baru agar langsung beroperasi dingin.",
       // Unsplash: Air Conditioner
-      image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=800&auto=format&fit=crop",
+      image: "g2",
     },
     {
       title: "Bongkar Pasang Water Heater",
