@@ -15,20 +15,24 @@ import Riviews from "@/src/components/Riviews";
 import Footer from "@/src/components/Footer";
 
 export default function Home() {
-  const whatsappNumber = "6281315661181"; // Ganti dengan nomor WhatsApp aktif Anda
-  const textMessage = [
-    "Halo Griyo Pindah \u{1F44B}",
-    "Saya tertarik dan ingin konsultasi pindahan.",
-    "",
-    "\u{1F4CD} Lokasi asal: [Alamat/Lokasi]",
-    "\u{1F4CD} Lokasi tujuan: [Alamat/Lokasi]",
-    "\u{1F4C5} Rencana pindah: [Tanggal]",
-    "\u{1F3E0} Tipe tempat: [Rumah/Apartemen/Kos]",
-    "\u{1F4E6} Barang utama: [Contoh: sofa, kulkas, TV, lemari, kasur, dll.]",
-    "\u{1F4F8} Foto barang: [Jika ada]",
-    "",
-    "Mohon dibantu estimasi harga dan kebutuhan layanan untuk pindahan saya. Terima kasih!",
-  ].join("\n");
+  const whatsappNumber = "6281315661181";
+  
+  // Teks pesan rapi dengan simbol bullet (•)
+  const rawTextMessage = `Halo Griyo Pindah
+Saya tertarik dan ingin konsultasi pindahan.
+
+Detail Pindahan:
+• Lokasi asal: [Alamat/Lokasi]
+• Lokasi tujuan: [Alamat/Lokasi]
+• Rencana pindah: [Tanggal]
+• Tipe tempat: [Rumah/Apartemen/Kos]
+• Barang utama: [Sofa, Kulkas, TV, Lemari, Kasur, dll.]
+• Foto barang: [Jika ada]
+
+Mohon dibantu estimasi harga dan kebutuhan layanan untuk pindahan saya. Terima kasih!`;
+
+  // Encode URL agar format bullet dan enter aman saat masuk ke WhatsApp
+  const textMessage = encodeURIComponent(rawTextMessage);
 
   return (
     <main className="min-h-screen bg-slate-50 text-slate-800 font-sans selection:bg-orange-500 selection:text-white">
