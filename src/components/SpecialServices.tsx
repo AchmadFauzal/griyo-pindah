@@ -6,7 +6,7 @@ export default function SpecialServices() {
     {
       title: "Packing Barang",
       desc: "Kami membantu mengemas barang dengan rapi menggunakan material pelindung yang sesuai untuk menjaga keamanan selama proses pindahan.",
-      image: "/spesial1.webp",
+      image: "/spesial7.webp",
     },
     {
       title: "Bongkar Pasang Furniture",

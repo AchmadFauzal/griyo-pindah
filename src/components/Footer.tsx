@@ -49,7 +49,7 @@ export default function Footer({ whatsappNumber, defaultWaMessage }: FooterProps
             </h4>
             <div className="space-y-2 text-xs mb-4">
               <p className="text-white font-semibold">Hotline: +62 813-1566-1181</p>
-              <p className="text-slate-400">Email: info@griyopindah.com</p>
+              <p className="text-slate-400">Email: griyopindah@gmail.com</p>
             </div>
             <a
               href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(defaultWaMessage)}`}
