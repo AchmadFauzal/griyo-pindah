@@ -17,8 +17,8 @@ import Footer from "@/src/components/Footer";
 export default function Home() {
   const whatsappNumber = "6281315661181";
   
-  // Teks pesan rapi dengan simbol bullet (•)
-  const rawTextMessage = `Halo Griyo Pindah
+  // Teks biasa tanpa encodeURIComponent
+  const textMessage = `Halo Griyo Pindah
 Saya tertarik dan ingin konsultasi pindahan.
 
 Detail Pindahan:
@@ -30,9 +30,6 @@ Detail Pindahan:
 • Foto barang: [Jika ada]
 
 Mohon dibantu estimasi harga dan kebutuhan layanan untuk pindahan saya. Terima kasih!`;
-
-  // Encode URL agar format bullet dan enter aman saat masuk ke WhatsApp
-  const textMessage = encodeURIComponent(rawTextMessage);
 
   return (
     <main className="min-h-screen bg-slate-50 text-slate-800 font-sans selection:bg-orange-500 selection:text-white">
