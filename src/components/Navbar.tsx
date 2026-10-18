@@ -16,17 +16,7 @@ export default function Navbar({ whatsappNumber, defaultWaMessage }: NavbarProps
   // Sanitasi nomor telepon untuk link `tel:` dan `wa.me`
   const cleanPhoneNumber = whatsappNumber.replace(/[^0-9]/g, "");
 
-  // Mencegah Double Encoding:
-  // 1. Dekode terlebih dahulu jika nilai prop sudah ter-encode sebelumnya
-  // 2. Encode ulang sekali saja secara bersih
-  let cleanMessage = defaultWaMessage;
-  try {
-    cleanMessage = decodeURIComponent(defaultWaMessage);
-  } catch {
-    cleanMessage = defaultWaMessage;
-  }
-  
-  const encodedMessage = encodeURIComponent(cleanMessage);
+  const encodedMessage = encodeURIComponent(defaultWaMessage);
   const waUrl = `https://wa.me/${cleanPhoneNumber}?text=${encodedMessage}`;
 
   const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
@@ -50,7 +40,7 @@ export default function Navbar({ whatsappNumber, defaultWaMessage }: NavbarProps
             <span className="bg-orange-500 text-white font-bold px-2 py-0.5 rounded text-[10px] tracking-wide uppercase">
               Spesialis Tangsel
             </span>
-            <span>📍 Layanan Pindahan Profesional Area Tangsel & JABODETABEK</span>
+            <span>📍 Layanan Pindahan Profesional Area Tangsel & Sekitarnya</span>
           </div>
           <div className="flex items-center gap-4 text-slate-300">
             <a href={`tel:${cleanPhoneNumber}`} className="hover:text-orange-400 transition flex items-center gap-1">

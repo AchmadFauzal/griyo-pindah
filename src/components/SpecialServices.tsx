@@ -4,40 +4,34 @@ import Image from "next/image";
 export default function SpecialServices() {
   const services = [
     {
+      title: "Packing Barang",
+      desc: "Kami membantu mengemas barang dengan rapi menggunakan material pelindung yang sesuai untuk menjaga keamanan selama proses pindahan.",
+      image: "/spesial1.webp",
+    },
+    {
       title: "Bongkar Pasang Furniture",
-      desc: "Bongkar pasang lemari pakaian besar, kitchen set, dipan tempat tidur, dan meja knock-down.",
-      // Unsplash Unsplash: Furniture / Carpenter
-      image: "/g1.png",
+      desc: "Mulai dari lemari, tempat tidur, meja, hingga furniture lainnya, kami membantu proses bongkar dan pemasangan kembali di lokasi tujuan.",
+      image: "/spesial2.webp",
     },
     {
-      title: "Bongkar Pasang AC",
-      desc: "Pelepasan unit AC lama dan pemasangan kembali di rumah baru agar langsung beroperasi dingin.",
-      // Unsplash: Air Conditioner
-      image: "/g2.png",
+      title: "Pengangkutan Barang",
+      desc: "Barang Anda diangkut dengan kendaraan yang disesuaikan dengan jumlah dan kebutuhan pindahan Anda.",
+      image: "/spesial3.webp",
     },
     {
-      title: "Bongkar Pasang Water Heater",
-      desc: "Instalasi pemanas air kamar mandi sehingga Anda langsung bisa mandi air hangat di lokasi baru.",
-      // Unsplash: Modern Bathroom / Shower
-      image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800&auto=format&fit=crop",
+      title: "Penataan & Pemindahan Barang",
+      desc: "Tim kami membantu mengangkat, memindahkan, dan menempatkan barang dari lokasi asal hingga ke tempat yang Anda inginkan.",
+      image: "/spesial4.webp",
     },
     {
-      title: "Pengangkatan Brankas",
-      desc: "Jasa pemindahan dan pengangkatan brankas berat, lemari besi, dan peralatan berbobot ekstra.",
-      // Unsplash: Heavy Safe Box / Vault
-      image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=800&auto=format&fit=crop",
+      title: "Pindahan Rumah & Apartemen",
+      desc: "Layanan pindahan untuk berbagai kebutuhan, mulai dari rumah, apartemen, kost, hingga kantor dengan proses yang lebih terorganisir.",
+      image: "/spesial5.webp",
     },
     {
-      title: "Instalasi Gallery & TV",
-      desc: "Pencopotan dan pemasangan bracket TV, lukisan berharga, patung hiasan, hingga gordyn.",
-      // Unsplash: Wall Mounted TV / Gallery Wall
-      image: "https://images.unsplash.com/photo-1593784991095-a205069470b6?q=80&w=800&auto=format&fit=crop",
-    },
-    {
-      title: "Pemindahan Piano",
-      desc: "Packing khusus, pemindahan hati-hati, dan penanganan aman untuk piano upright & grand piano.",
-      // Unsplash: Grand Piano
-      image: "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?q=80&w=800&auto=format&fit=crop",
+      title: "Perlindungan Barang",
+      desc: "Barang ditangani dengan hati-hati dan dilengkapi perlindungan yang sesuai untuk membantu meminimalkan risiko selama proses pindahan.",
+      image: "/spesial6.webp",
     },
   ];
 
@@ -46,10 +40,10 @@ export default function SpecialServices() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-xs font-black tracking-widest text-orange-500 uppercase mb-2">
-            Penanganan Ekstra
+            Layanan Kami
           </h2>
           <p className="text-3xl sm:text-4xl font-black text-slate-900 mb-4">
-            Barang-Barang Memerlukan Penanganan Khusus?
+            Solusi Pindahan Lengkap Sesuai Kebutuhan Anda
           </p>
         </div>
 

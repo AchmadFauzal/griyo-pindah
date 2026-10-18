@@ -25,7 +25,7 @@ export default function Hero({ whatsappNumber, defaultWaMessage }: HeroProps) {
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
             <div className="inline-flex items-center gap-2 bg-orange-100 text-orange-700 font-semibold text-xs md:text-sm px-4 py-1.5 rounded-full border border-orange-200">
               <span className="w-2 h-2 rounded-full bg-orange-500 animate-pulse"></span>
-              <span>Area Tangerang Selatan & Sekitarnya • JABODETABEK & Antar Kota</span>
+              <span>Area Tangerang Selatan & Sekitarnya</span>
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight leading-[1.15]">
@@ -33,12 +33,12 @@ export default function Hero({ whatsappNumber, defaultWaMessage }: HeroProps) {
             </h1>
 
             <p className="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              Solusi pindahan rumah & apartemen terlengkap. Didukung Relocation Consultant berpengalaman, tim packing ahli, material pelindung tebal, dan garansi keamanan penuh tanpa drama!
+              Solusi pindahan rumah & apartemen terlengkap. Kami hadir dengan tim profesional, packing yang rapi, perlindungan maksimal, dan pendampingan dari awal hingga barang tiba di tujuan.
             </p>
 
             <div className="pt-2 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
-                href={`https://wa.me/${whatsappNumber}?text=${defaultWaMessage}`}
+                href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(defaultWaMessage)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-orange-500 hover:bg-orange-600 text-white font-bold text-lg px-8 py-4 rounded-xl shadow-xl shadow-orange-500/30 transition hover:-translate-y-0.5 flex items-center justify-center gap-3"

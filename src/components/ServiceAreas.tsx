@@ -4,27 +4,27 @@ export default function ServiceAreas() {
   const areas = [
     {
       icon: "🏢",
-      title: "BSD City & Serpong",
-      desc: "Layanan utama & respon tercepat untuk area BSD, Gading Serpong, Alam Sutera, & Pamulang.",
+      title: "BSD City",
+      desc: "Layanan utama & respon tercepat untuk kawasan hunian, apartemen, dan perkantoran di BSD City.",
       badge: "Area Utama (Basecamp)",
     },
     {
+      icon: "🏡",
+      title: "Serpong",
+      desc: "Meliputi wilayah Gading Serpong, Alam Sutera, Serpong Utara, dan sekitarnya.",
+      badge: "Layanan Prioritas",
+    },
+    {
       icon: "🏙️",
-      title: "Tangerang Kota & Sekitar",
-      desc: "Meliputi Tangerang Kota, Karawaci, Cikokol, Bintaro, hingga Ciputat dan sekitarnya.",
+      title: "Tangerang",
+      desc: "Layanan lengkap untuk wilayah Tangerang Kota, Karawaci, Cikokol, hingga Bintaro.",
       badge: "Layanan Prioritas",
     },
     {
       icon: "📍",
-      title: "DKI Jakarta & Depok",
-      desc: "Siap melayani seluruh area Jakarta Barat, Selatan, Pusat, Timur, Utara, serta Kota Depok.",
-      badge: "Coverage Luas",
-    },
-    {
-      icon: "🚚",
-      title: "Bekasi & Bogor",
-      desc: "Melayani area Cibubur, Cileungsi, Kota/Kabupaten Bekasi, hingga Kota & Kabupaten Bogor.",
-      badge: "Setiap Hari",
+      title: "Sekitarnya",
+      desc: "Melayani area pendukung seperti Pamulang, Ciputat, Tangerang Selatan, hingga Jabodetabek.",
+      badge: "Layanan Reguler",
     },
   ];
 
@@ -38,7 +38,7 @@ export default function ServiceAreas() {
             Jangkauan Layanan Lokal
           </h2>
           <p className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">
-            Fokus Utama Area Tangerang Selatan & JABODETABEK
+            Fokus Utama Area Tangerang Selatan & Sekitarnya
           </p>
           <p className="text-slate-600 text-sm mt-3">
             Armada dan tim operasional kami bersiap di titik strategis untuk penanganan cepat dan tepat waktu.

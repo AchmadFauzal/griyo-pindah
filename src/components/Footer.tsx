@@ -31,7 +31,6 @@ export default function Footer({ whatsappNumber, defaultWaMessage }: FooterProps
               <li>Pindahan Rumah & Apartemen</li>
               <li>Jasa Packing Barang Premium</li>
               <li>Ekspedisi & Kirim Barang</li>
-              <li>Bongkar Pasang Furniture & AC</li>
             </ul>
           </div>
 
@@ -40,7 +39,7 @@ export default function Footer({ whatsappNumber, defaultWaMessage }: FooterProps
               Alamat & Cabang
             </h4>
             <ul className="space-y-2.5 text-xs text-slate-400">
-              <li className="font-semibold text-slate-200">📍 Tangerang Selatan (HQ BSD)</li>
+              <li className="font-semibold text-slate-200">📍 Jelupang, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15323</li>
             </ul>
           </div>
 
@@ -53,7 +52,7 @@ export default function Footer({ whatsappNumber, defaultWaMessage }: FooterProps
               <p className="text-slate-400">Email: info@griyopindah.com</p>
             </div>
             <a
-              href={`https://wa.me/${whatsappNumber}?text=${defaultWaMessage}`}
+              href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(defaultWaMessage)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold text-xs px-4 py-2.5 rounded-lg transition"

@@ -4,27 +4,27 @@ export default function AudienceTarget() {
   const targets = [
     {
       id: "01",
-      title: "Sayang Akan Furniture",
-      desc: "Furniture memiliki variasi jenis & harga. Kami peduli dengan keselamatan barang kesayangan Anda. Meleceti saja kami tidak sampai hati.",
-      image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop",
+      title: "Sayang Akan Furniture Anda",
+      desc: "Punya furniture kesayangan atau barang bernilai tinggi? Kami membantu melindungi setiap barang dengan packing dan penanganan yang sesuai untuk meminimalkan risiko kerusakan.",
+      image: "/audience1.webp",
     },
     {
       id: "02",
-      title: "Ingin Terima Beres",
-      desc: "Tidak perlu lelah angkat barang berat atau membungkus sendiri. Semua tahapan dari awal hingga akhir ditangani tim spesialis kami.",
-      image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop",
+      title: "Tidak Ingin Repot Mengurus Pindahan",
+      desc: "Tidak punya waktu untuk mengemas, mengangkat, dan mengatur barang sendiri? Biarkan tim kami menangani proses pindahan dari awal hingga barang tiba di tempat tujuan.",
+      image: "/audience5.webp",
     },
     {
       id: "03",
-      title: "Suka Kebersihan",
-      desc: "Pindahan identik dengan debu dan sampah paking. Kami memastikan area lokasi tetap bersih rapi dan bebas dari sisa sampah pembungkus.",
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=800&auto=format&fit=crop",
+      title: "Punya Banyak Barang Untuk Dipindahkan",
+      desc: "Mulai dari furniture, elektronik, hingga barang-barang kecil, kami membantu mengatur proses pemindahan agar lebih rapi, terorganisir, dan efisien.",
+      image: "/audience3.webp",
     },
     {
       id: "04",
-      title: "Layanan Profesional",
-      desc: "Anda berhak mendapatkan pengalaman pindahan rumah yang menyenangkan, ramah, tepat waktu, aman, dan SANGAT NYAMAN.",
-      image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&auto=format&fit=crop",
+      title: "Ingin Pindahan yang Aman & Terencana",
+      desc: "Ingin tahu apa yang harus disiapkan dan berapa perkiraan biayanya? Konsultasikan kebutuhan Anda dengan tim kami untuk mendapatkan solusi pindahan yang sesuai.",
+      image: "/audience4.webp",
     },
   ];
 

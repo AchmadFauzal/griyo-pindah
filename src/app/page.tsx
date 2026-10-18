@@ -16,14 +16,24 @@ import Footer from "@/src/components/Footer";
 
 export default function Home() {
   const whatsappNumber = "6281315661181"; // Ganti dengan nomor WhatsApp aktif Anda
-  const defaultWaMessage = encodeURIComponent(
-    "Halo Griyo Pindah, saya ingin tanya estimasi biaya dan konsultasi pindahan rumah."
-  );
+  const textMessage = [
+    "Halo Griyo Pindah \u{1F44B}",
+    "Saya tertarik dan ingin konsultasi pindahan.",
+    "",
+    "\u{1F4CD} Lokasi asal: [Alamat/Lokasi]",
+    "\u{1F4CD} Lokasi tujuan: [Alamat/Lokasi]",
+    "\u{1F4C5} Rencana pindah: [Tanggal]",
+    "\u{1F3E0} Tipe tempat: [Rumah/Apartemen/Kos]",
+    "\u{1F4E6} Barang utama: [Contoh: sofa, kulkas, TV, lemari, kasur, dll.]",
+    "\u{1F4F8} Foto barang: [Jika ada]",
+    "",
+    "Mohon dibantu estimasi harga dan kebutuhan layanan untuk pindahan saya. Terima kasih!",
+  ].join("\n");
 
   return (
     <main className="min-h-screen bg-slate-50 text-slate-800 font-sans selection:bg-orange-500 selection:text-white">
-      <Navbar whatsappNumber={whatsappNumber} defaultWaMessage={defaultWaMessage} />
-      <Hero whatsappNumber={whatsappNumber} defaultWaMessage={defaultWaMessage} />
+      <Navbar whatsappNumber={whatsappNumber} defaultWaMessage={textMessage} />
+      <Hero whatsappNumber={whatsappNumber} defaultWaMessage={textMessage} />
       <Features />
       <AudienceTarget />
       <HowItWorks />
@@ -34,7 +44,7 @@ export default function Home() {
       <FAQ />
       <Gallery />
       <Riviews />
-      <Footer whatsappNumber={whatsappNumber} defaultWaMessage={defaultWaMessage} />
+      <Footer whatsappNumber={whatsappNumber} defaultWaMessage={textMessage} />
     </main>
   );
 }

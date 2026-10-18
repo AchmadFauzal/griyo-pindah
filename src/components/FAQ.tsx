@@ -12,8 +12,7 @@ export default function FAQ() {
   const faqs = [
     { id: 1, q: "Apa yang dimaksud dengan barang-barang besar?", a: "Barang-barang besar meliputi furniture utama dan elektronik berat seperti lemari pakaian, tempat tidur / dipan, sofa, meja makan, kulkas 2 pintu, mesin cuci, dan piano/brankas." },
     { id: 2, q: "Apa yang dimaksud dengan barang-barang kecil?", a: "Barang-barang kecil adalah perabotan rumah tangga seperti barang pecah belah dapur, pakaian, buku, mainan anak, perlengkapan mandi, hiasan dinding kecil, serta dokumen penting yang dikemas dalam karton box." },
-    { id: 3, q: "Apakah saya mendapatkan karton box dan bubble wrap?", a: "Ya! Pada paket pindahan lengkap (Paket Premium), material packing berkualitas seperti karton box tebal, bubble wrap, stretch film, lakban pelindung, serta selimut paking disiapkan penuh oleh tim kami." },
-    { id: 4, q: "Apakah yang dimaksud dengan reposisi barang?", a: "Layanan reposisi adalah pertolongan tim kami untuk menata dan menempatkan kembali furniture besar serta barang-barang Anda di lokasi tujuan sesuai instruksi dan tata letak/ruangan yang Anda inginkan (misalnya menaruh lemari di lantai 2)." }
+    { id: 3, q: "Apakah yang dimaksud dengan reposisi barang?", a: "Layanan reposisi adalah pertolongan tim kami untuk menata dan menempatkan kembali furniture besar serta barang-barang Anda di lokasi tujuan sesuai instruksi dan tata letak/ruangan yang Anda inginkan (misalnya menaruh lemari di lantai 2)." }
   ];
 
   return (

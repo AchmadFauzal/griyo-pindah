@@ -11,53 +11,53 @@ export default function Gallery() {
   const photos = [
     { 
       // Contoh Gambar Lokal (Cukup ganti dengan path file di folder public/ Anda)
-      src: "/g16.jpeg", 
+      src: "/galeri1.webp", 
       title: "Packing Furniture Mewah", 
       category: "Packing Standard" 
     },
     { 
       // Contoh Gambar Unsplash/Eksternal
-      src: "/g5.png", 
+      src: "/galeri2.webp", 
       title: "Pengangkutan Ke Armada Truk", 
       category: "Transportasi" 
     },
     { 
-      src: "/g2.png", 
+      src: "/galeri3.webp", 
       title: "Bongkar Pasang AC & Unit", 
       category: "Layanan Khusus" 
     },
     { 
-      src: "/g4.png", 
+      src: "/galeri4.webp", 
       title: "Reposisi Barang di Rumah Baru", 
       category: "Unpacking & Unloading" 
     },
     { 
-      src: "/g1.png", 
+      src: "/galeri5.webp", 
       title: "Penanganan Sofa Besar & Antik", 
       category: "Special Item" 
     },
     { 
-      src: "/g7.jpeg", 
+      src: "/galeri6.webp", 
       title: "Pindahan Rumah Area Tangsel", 
       category: "Pindahan Rumah" 
     },
     { 
-      src: "/g10.jpeg", 
+      src: "/galeri7.webp", 
       title: "Packing Barang Kaca & Antik", 
       category: "Fragile Packing" 
     },
     { 
-      src: "/g9.jpeg", 
+      src: "/galeri8.webp", 
       title: "Pengangkatan Brankas Berat", 
       category: "Special Item" 
     },
     { 
-      src: "/g3.png", 
+      src: "/galeri9.webp", 
       title: "Pindahan Apartemen Lantai Tinggi", 
       category: "Pindahan Apartemen" 
     },
     { 
-      src: "/g15.jpeg", 
+      src: "/galeri10.webp", 
       title: "Unpacking & Penataan Lemari", 
       category: "Relocation Support" 
     },

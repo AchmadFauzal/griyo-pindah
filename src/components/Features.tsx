@@ -7,37 +7,37 @@ export default function Features() {
       title: "Relocation Consultant Profesional",
       desc: "Anda dapat berkonsultasi tentang teknis pindahan tanpa ragu, langsung dengan ahlinya yang mengerti cara penanganan setiap jenis furniture.",
       // Unsplash: Konsultan / Diskusi Profesional
-      image: "/g2.png",
+      image: "/features1.webp",
     },
     {
-      title: "Transparan Dalam Pekerjaan & Biaya",
-      desc: "Tidak ada lagi istilah 'nembak harga' di tengah jalan. Semua rincian biaya & scope pekerjaan disepakati transparan di awal.",
+      title: "Tidak Ada Biaya Yang Muncul Tiba-Tiba",
+      desc: "Dapatkan penawaran yang jelas sejak awal, sehingga Andadapat mengetahui kebutuhan dan biaya pindahan sebelum pekerjaan dimulai.",
       // Unsplash: Transparansi Biaya / Dokumen
-      image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=800&auto=format&fit=crop",
+      image: "/features2.webp",
     },
     {
       title: "Terima Beres Tanpa Ada Drama",
       desc: "Mulai dari packing, unpacking, reposisi, hingga bongkar pasang furniture. Kami bantu semuanya. Anda cukup mengawasi pekerjaan kami.",
       // Unsplash: Rumah Bersih & Rapi
-      image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop",
+      image: "/features3.webp",
     },
     {
       title: "Lebih Aman & Tenang Bergaransi",
       desc: "Risiko akan selalu ada sekecil apapun itu. Namun Griyo Pindah berkomitmen penuh akan keamanan barang Anda dengan perlindungan garansi.",
       // Unsplash: Proteksi / Jaminan Keamanan
-      image: "/g13.jpeg",
+      image: "/features4.webp",
     },
     {
-      title: "Dikerjakan Oleh Tenaga Ahli",
-      desc: "Man power kami mendedikasikan tenaga dan pikirannya khusus untuk menjadi spesialis di bidang pindahan rumah & barang berharga.",
+      title: "Ditangani Oleh Tim Yang Memahami Proses Pindahan",
+      desc: "Mulai dari survey, packing, pengangkutan, hingga penataan kembali, setiap proses ditangani oleh tim yang terlatih dan berpengalaman.",
       // Unsplash: Pekerja Spesialis
-      image: "/g1.png",
+      image: "/features5.webp",
     },
     {
-      title: "Material Packing Berkualitas",
-      desc: "Tenaga ahli kami didukung peralatan kerja lengkap serta material packing tebal (bubble wrap, karton box, stretch film) standar industri.",
+      title: "Anda Tinggal Tenang, Kami Yang Mengurus Prosesnya",
+      desc: "Nikmati proses pindahan yang lebih mudah dan terorganisir tanpa harus repot mengatur banyak hal sendiri.",
       // Unsplash: Kardus & Material Packing
-      image: "/g14.jpeg",
+      image: "/features6.webp",
     },
   ];
 
